@@ -1,1350 +1,335 @@
-## JSON
-{
-	"e_Comprobante": {
-		"_Id": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"_Nodo": "A",
-		"_TicketId": "82fb99aa-af68-4af5-84b0-ed56a3616895",
-		"_PaymentId": "92fb99aa-af68-4af5-84b0-ed56a3616839",
-		"_Usuario": "52fb99aa-af68-4af5-84b0-ed56a3616832",
-		"_Emisor": "7b19d7e0-5c2a-11eb-afd2-0025902f1700",
-		"_TimbreFiscalDigital_UUID": null,
-		"Emisor_Rfc": "TES030201001",
-		"Emisor_Nombre": "Compuhipermegared",
-		"Emisor_RegimenFiscal": "601",
-		"Emisor_FacAtrAdquirente": null,
-		"Receptor_Rfc": "TES030201001",
-		"Receptor_Nombre": "Compuhipermegared",
-		"Receptor_DomicilioFiscalReceptor": "72000",
-		"Receptor_ResidenciaFiscal": null,
-		"Receptor_NumRegIdTrib": null,
-		"Receptor_RegimenFiscalReceptor": "601",
-		"Receptor_UsoCFDI": "G03",
-		"Version": "4.0",
-		"Serie": "{Serie}",
-		"Folio": "{Folio}",
-		"Fecha": "2022-04-23 03:00:19",
-		"Sello": "{Sello}",
-		"FormaPago": "01",
-		"NoCertificado": "{NoCertificado}",
-		"Certificado": "{Certificado}",
-		"CondicionesDePago": null,
-		"SubTotal": 642.24,
-		"Descuento": 121.55,
-		"Moneda": "MXN",
-		"TipoCambio": null,
-		"Total": 604,
-		"TipoDeComprobante": "I",
-		"Exportacion": "01",
-		"MetodoPago": "PUE",
-		"LugarExpedicion": "80000",
-		"Confirmacion": null
-	},
-	"e_Conceptos": [{
-		"TICKET": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"LINE": "0",
-		"_Comprobante": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "501005",
-		"Cantidad": "2",
-		"ClaveUnidad": "EA",
-		"Unidad": "Pieza",
-		"Descripcion": "Andaluc\u00eda 10\"",
-		"ValorUnitario": 168.103448,
-		"Importe": 336.206897,
-		"Descuento": 100.86,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-			"LINE": "0",
-			"_Tipo": "T",
-			"Base": "235.344828",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "37.655172"
-		}]
-	}, {
-		"TICKET": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"LINE": "1",
-		"_Comprobante": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "211005",
-		"Cantidad": "1",
-		"ClaveUnidad": "EA",
-		"Unidad": "Pieza",
-		"Descripcion": "Capricarajillo",
-		"ValorUnitario": 68.965517,
-		"Importe": 68.965517,
-		"Descuento": 20.69,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-			"LINE": "1",
-			"_Tipo": "T",
-			"Base": "48.275862",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "7.724138"
-		}]
-	}, {
-		"TICKET": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"LINE": "2",
-		"_Comprobante": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "501005",
-		"Cantidad": "1",
-		"ClaveUnidad": "EA",
-		"Unidad": "Pieza",
-		"Descripcion": "Andaluc\u00eda 10\"",
-		"ValorUnitario": 168.103448,
-		"Importe": 168.103448,
-		"Descuento": null,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-			"LINE": "2",
-			"_Tipo": "T",
-			"Base": "168.103448",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "26.896552"
-		}]
-	}, {
-		"TICKET": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"LINE": "3",
-		"_Comprobante": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "211005",
-		"Cantidad": "1",
-		"ClaveUnidad": "EA",
-		"Unidad": "Pieza",
-		"Descripcion": "Capricarajillo",
-		"ValorUnitario": 68.965517,
-		"Importe": 68.965517,
-		"Descuento": null,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-			"LINE": "3",
-			"_Tipo": "T",
-			"Base": "68.965517",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "11.034483"
-		}]
-	}],
-	"e_Impuestos_Traslados": [{
-		"_Comprobante": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-		"Base": 520.689655,
-		"Impuesto": "002",
-		"TipoFactor": "Tasa",
-		"TasaOCuota": "0.160000",
-		"Importe": "83.31"
-	}]
+# CFDI Backend - API de Facturación Electrónica
+
+[![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)](https://www.php.net)
+[![CFDI Version](https://img.shields.io/badge/CFDI-3.3%20%7C%204.0-green.svg)](https://www.sat.gob.mx)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+API REST completa para la generación, timbrado y gestión de Comprobantes Fiscales Digitales por Internet (CFDI) en México, cumpliendo con todos los estándares del SAT.
+
+## 🚀 Características
+
+- ✅ **Soporte completo CFDI 3.3 y 4.0**
+- ✅ **Integración con PAC (Proveedor Autorizado de Certificación)**
+- ✅ **Generación automática de PDF**
+- ✅ **Envío por correo electrónico**
+- ✅ **Cancelación de comprobantes**
+- ✅ **Validación con esquemas SAT**
+- ✅ **API REST con autenticación OAuth2**
+- ✅ **Múltiples formatos de salida (XML, PDF, ZIP, JSON)**
+
+## 📋 Requisitos del Sistema
+
+- **PHP 7.4+** con extensiones:
+  - PDO MySQL
+  - XML
+  - OpenSSL
+  - cURL
+  - mbstring
+- **MySQL 5.7+**
+- **Servidor web** (Apache/Nginx)
+- **Certificados SAT** (.cer y .key)
+- **Cuenta con PAC autorizado**
+
+## 🛠️ Instalación
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/tu-usuario/cfdi-backend.git
+cd cfdi-backend
+```
+
+### 2. Instalar dependencias
+```bash
+composer install
+```
+
+### 3. Configurar base de datos
+```sql
+CREATE DATABASE facturacion_cfdi;
+-- Importar esquema de base de datos (schema.sql)
+```
+
+### 4. Configurar variables de entorno
+```php
+// app/core/config.php
+final class config {
+    // Base de datos
+    public static $db_name = "tu_base_datos";
+    public static $db_user = "tu_usuario";
+    public static $db_host = "localhost";
+    public static $db_pass = "tu_password";
+    
+    // Servidor de correo
+    public static $mailHost = "tu_servidor_smtp";
+    public static $mailPort = 587;
+    public static $mailUser = "tu_email";
+    public static $mailPasswd = "tu_password";
 }
+```
 
+### 5. Configurar servidor web
+```apache
+# Apache .htaccess
+RewriteEngine On
+RewriteBase /cfdi/app/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+```
 
-## JSON GLOBAL
+## 🔧 Configuración
 
+### Certificados SAT
+1. Coloca tus certificados en el directorio seguro
+2. Registra la información del emisor en la tabla `EMISORES`
+3. Configura la conexión con tu PAC
+
+### OAuth2
+El sistema utiliza OAuth2 para autenticación. Configura tus credenciales de cliente en la base de datos.
+
+## 📚 Uso de la API
+
+### Autenticación
+```bash
+# Obtener token de acceso
+curl -X POST "https://tu-dominio.com/cfdi/app/oauth/token" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "grant_type=client_credentials&client_id=tu_client&client_secret=tu_secret"
+```
+
+### Crear Comprobante CFDI 4.0
+```bash
+curl -X POST "https://tu-dominio.com/cfdi/app/v40/comprobantes" \
+  -H "Authorization: Bearer tu_token" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "e_Comprobante": {
+      "Emisor_Rfc": "TES030201001",
+      "Emisor_Nombre": "Test Emisor",
+      "Receptor_Rfc": "XAXX010101000",
+      "Receptor_Nombre": "PUBLICO EN GENERAL",
+      "Total": 116.00,
+      "SubTotal": 100.00,
+      "Version": "4.0"
+    },
+    "e_Conceptos": [
+      {
+        "ClaveProdServ": "01010101",
+        "Cantidad": 1,
+        "ClaveUnidad": "ACT",
+        "Descripcion": "Servicio de prueba",
+        "ValorUnitario": 100.00,
+        "Importe": 100.00,
+        "ObjetoImp": "02"
+      }
+    ]
+  }'
+```
+
+### Timbrar Comprobante
+```bash
+curl -X PUT "https://tu-dominio.com/cfdi/app/v40/comprobantes/{id}/timbrar" \
+  -H "Authorization: Bearer tu_token"
+```
+
+### Obtener CFDI en diferentes formatos
+```bash
+# XML
+curl "https://tu-dominio.com/cfdi/app/v40/cfdi/{uuid}.xml" \
+  -H "Authorization: Bearer tu_token"
+
+# PDF
+curl "https://tu-dominio.com/cfdi/app/v40/cfdi/{uuid}.pdf" \
+  -H "Authorization: Bearer tu_token"
+
+# ZIP (XML + PDF)
+curl "https://tu-dominio.com/cfdi/app/v40/cfdi/{uuid}.zip" \
+  -H "Authorization: Bearer tu_token"
+```
+
+### Cancelar CFDI
+```bash
+curl -X PUT "https://tu-dominio.com/cfdi/app/v40/cfdi/{uuid}/cancelar" \
+  -H "Authorization: Bearer tu_token" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "Motivo": "02",
+    "FolioSustitucion": ""
+  }'
+```
+
+### Enviar por Email
+```bash
+curl -X POST "https://tu-dominio.com/cfdi/app/v40/cfdi/{uuid}/email" \
+  -H "Authorization: Bearer tu_token" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "email": "cliente@example.com",
+    "asunto": "Su comprobante fiscal",
+    "mensaje": "Adjunto encontrará su comprobante fiscal"
+  }'
+```
+
+## 📖 Endpoints Disponibles
+
+### CFDI 4.0 (Recomendado)
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `POST` | `/v40/comprobantes` | Crear comprobante |
+| `PUT` | `/v40/comprobantes/{id}/timbrar` | Timbrar comprobante |
+| `PUT` | `/v40/comprobantes/{id}/actualizar` | Actualizar comprobante |
+| `GET` | `/v40/cfdi/{uuid}.{format}` | Obtener CFDI |
+| `PUT` | `/v40/cfdi/{uuid}/cancelar` | Cancelar CFDI |
+| `POST` | `/v40/cfdi/{uuid}/email` | Enviar por email |
+| `GET` | `/v40/cfdi/{fechaIni}/{fechaFin}` | Listar CFDIs |
+| `GET` | `/v40/cfdi/{fechaIni}/{fechaFin}/descargar` | Descarga masiva |
+
+### CFDI 3.3 (Legacy)
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `POST` | `/comprobantes33` | Crear comprobante |
+| `POST` | `/comprobantes33/timbrar/{id}` | Timbrar comprobante |
+| `GET` | `/cfdi33/{uuid}.{format}` | Obtener CFDI |
+| `GET` | `/cfdi33/{uuid}/cancelar` | Cancelar CFDI |
+
+### Formatos soportados
+- `xml` - Comprobante fiscal oficial
+- `pdf` - Representación impresa
+- `zip` - Archivos comprimidos (XML + PDF)
+- `json` - Datos estructurados
+
+## 🏗️ Arquitectura
+
+```
+cfdi-backend/
+├── app/
+│   ├── core/                    # Núcleo del sistema
+│   │   ├── CFDI.php            # Clase principal CFDI
+│   │   ├── config.php          # Configuración
+│   │   ├── OAuth2/             # Autenticación
+│   │   ├── PHPMailer/          # Correo electrónico
+│   │   ├── tcpdf/              # Generación PDF
+│   │   └── sat/                # Esquemas SAT
+│   ├── models/                  # Modelos de datos
+│   │   ├── Comprobante40.php   # CFDI 4.0
+│   │   ├── Cfdi40.php          # Operaciones CFDI 4.0
+│   │   └── ...
+│   ├── assets/                  # Recursos estáticos
+│   ├── router.php              # Configuración de rutas
+│   └── index.php               # Punto de entrada
+```
+
+## 🔍 Validaciones
+
+El sistema incluye validaciones completas:
+
+- **Estructura XML**: Validación contra esquemas XSD del SAT
+- **Datos fiscales**: RFC, códigos postales, catálogos SAT
+- **Cálculos**: Subtotales, impuestos, totales
+- **Certificados**: Validación de certificados digitales
+- **Sellado**: Generación correcta de sello digital
+
+## 📊 Manejo de Errores
+
+```json
 {
-	"e_Comprobante": {
-        "_Id": "92fb99aa-af68-4af5-84b0-ed56a3616830",
-        "_Nodo": "B",
-		"_TicketId": "926d9737-b9d7-11ec-a5e0-0242ac120405",
-		"_PaymentId": "92fb99aa-af68-4af5-84b0-ed56a3616839",
-		"_Usuario": "0",
-		"_Emisor": "7b19d7e0-5c2a-11eb-afd2-0025902f1700",
-        "_TimbreFiscalDigital_UUID": null,
-		"Emisor_Rfc": "TES030201001",
-		"Emisor_Nombre": "Compuhipermegared",
-		"Emisor_RegimenFiscal": "601",
-        "Emisor_FacAtrAdquirente": null,
-		"Receptor_Rfc": "XAXX010101000",
-		"Receptor_Nombre": "PUBLICO EN GENERAL",
-		"Receptor_DomicilioFiscalReceptor": "80227",
-		"Receptor_ResidenciaFiscal": null,
-		"Receptor_NumRegIdTrib": null,
-		"Receptor_RegimenFiscalReceptor": "616",
-		"Receptor_UsoCFDI": "S01",
-		"Version": "4.0",
-		"Serie": "{Serie}",
-		"Folio": "{Folio}",
-		"Fecha": "2022-04-18 00:00:00",
-		"Sello": "{Sello}",
-		"FormaPago": "01", 
-		"NoCertificado": "{NoCertificado}",
-		"Certificado": "{Certificado}",
-		"CondicionesDePago": null,
-		"SubTotal": 35083.62,
-		"Descuento": 91.55,
-		"Moneda": "MXN",
-		"TipoCambio": null,
-		"Total": 40590.81,
-		"TipoDeComprobante": "I",
-		"Exportacion": "01",
-		"MetodoPago": "PUE",
-		"LugarExpedicion": "80227",
-		"Confirmacion": null
-	},
-	"e_InformacionGlobal": {
-		"Periodicidad": "04",
-		"Meses": "04",
-		"Año": "2022"
-	},
-	"e_Conceptos": [{
-		"TICKET": "db8d6feb-b346-4729-a2d3-2fb0d28fef56",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "01010101",
-		"NoIdentificacion": "41996",
-		"Cantidad": 1,
-		"ClaveUnidad": "ACT",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 724.137931,
-		"Importe": 724.137931,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-        "ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "db8d6feb-b346-4729-a2d3-2fb0d28fef56",
-            "LINE": "0",
-			"_Tipo": "T",
-			"Base": "724.137931",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "115.862069"
-		}]
-	}, {
-		"TICKET": "87d8221c-aca0-4788-817e-b24305e96e26",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "41997",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 1293.103448,
-		"Importe": 1293.103448,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "87d8221c-aca0-4788-817e-b24305e96e26",
-			"_Tipo": "T",
-			"Base": "1293.103448",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "206.90"
-		}]
-	}, {
-		"TICKET": "427d90eb-3ffe-42c0-bb3e-d24416305b51",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "41998",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 339.655173,
-		"Importe": 339.655173,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "427d90eb-3ffe-42c0-bb3e-d24416305b51",
-			"_Tipo": "T",
-			"Base": "339.655172",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "54.34"
-		}]
-	}, {
-		"TICKET": "a232cd41-f2ee-4e25-a7bd-dc2dba1e03fb",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "41999",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 655.172415,
-		"Importe": 655.172415,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "a232cd41-f2ee-4e25-a7bd-dc2dba1e03fb",
-			"_Tipo": "T",
-			"Base": "655.172414",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "104.83"
-		}]
-	}, {
-		"TICKET": "c0705815-b3f0-449a-b29c-078f3dd20edc",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42000",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 1881.896553,
-		"Importe": 1881.896553,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "c0705815-b3f0-449a-b29c-078f3dd20edc",
-			"_Tipo": "T",
-			"Base": "1881.896552",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "301.10"
-		}]
-	}, {
-		"TICKET": "a74d11d4-7e05-40e3-9728-1931c5d9dd73",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42001",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 562.068966,
-		"Importe": 562.068966,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "a74d11d4-7e05-40e3-9728-1931c5d9dd73",
-			"_Tipo": "T",
-			"Base": "562.068966",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "89.93"
-		}]
-	}, {
-		"TICKET": "41958286-6355-4f3d-8c0d-d51ca9306c92",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42002",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 603.448276,
-		"Importe": 603.448276,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "41958286-6355-4f3d-8c0d-d51ca9306c92",
-			"_Tipo": "T",
-			"Base": "603.448276",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "96.55"
-		}]
-	}, {
-		"TICKET": "d07387d3-c16a-42d1-8dc9-5839123c32f6",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42003",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 378.448276,
-		"Importe": 378.448276,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "d07387d3-c16a-42d1-8dc9-5839123c32f6",
-			"_Tipo": "T",
-			"Base": "378.448276",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "60.55"
-		}]
-	}, {
-		"TICKET": "526af43f-bf46-479c-a45b-41d68eb84efd",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42004",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 840.517241,
-		"Importe": 840.517241,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "526af43f-bf46-479c-a45b-41d68eb84efd",
-			"_Tipo": "T",
-			"Base": "840.517241",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "134.48"
-		}]
-	}, {
-		"TICKET": "d4a2ea0a-8f44-4f4c-b9fb-338479167692",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42005",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 409.48276,
-		"Importe": 409.48276,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "d4a2ea0a-8f44-4f4c-b9fb-338479167692",
-			"_Tipo": "T",
-			"Base": "409.482759",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "65.52"
-		}]
-	}, {
-		"TICKET": "c10abd4d-1683-4e95-9dca-b8ad91886051",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42006",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 950.862068,
-		"Importe": 950.862068,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "c10abd4d-1683-4e95-9dca-b8ad91886051",
-			"_Tipo": "T",
-			"Base": "950.862069",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "152.14"
-		}]
-	}, {
-		"TICKET": "d7ba65e7-8ec4-43f1-875f-fa5e298c8a81",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42007",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 1293.103448,
-		"Importe": 1293.103448,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "d7ba65e7-8ec4-43f1-875f-fa5e298c8a81",
-			"_Tipo": "T",
-			"Base": "1293.103448",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "206.90"
-		}]
-	}, {
-		"TICKET": "aba5452a-3682-4015-b3f8-4434775d67fb",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42008",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 1206.896552,
-		"Importe": 1206.896552,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "aba5452a-3682-4015-b3f8-4434775d67fb",
-			"_Tipo": "T",
-			"Base": "1206.896552",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "193.10"
-		}]
-	}, {
-		"TICKET": "49441970-4ad5-4bf6-b899-4cec1083eee1",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42009",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 601.724138,
-		"Importe": 601.724138,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "49441970-4ad5-4bf6-b899-4cec1083eee1",
-			"_Tipo": "T",
-			"Base": "601.724138",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "96.28"
-		}]
-	}, {
-		"TICKET": "717f8e3a-e834-4fb0-97ef-72c4d4c19db9",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42010",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 227.586207,
-		"Importe": 227.586207,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "717f8e3a-e834-4fb0-97ef-72c4d4c19db9",
-			"_Tipo": "T",
-			"Base": "227.586207",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "36.41"
-		}]
-	}, {
-		"TICKET": "61fa9aae-5391-4bcf-a15d-faf97a88f0ba",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42011",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 159.482759,
-		"Importe": 159.482759,
-		"Descuento": 47.844828,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "61fa9aae-5391-4bcf-a15d-faf97a88f0ba",
-			"_Tipo": "T",
-			"Base": "111.637931",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "17.86"
-		}]
-	}, {
-		"TICKET": "8402b2df-2f2a-4acd-93d6-04f5ff55bb66",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42012",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 176.724138,
-		"Importe": 176.724138,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "8402b2df-2f2a-4acd-93d6-04f5ff55bb66",
-			"_Tipo": "T",
-			"Base": "176.724138",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "28.28"
-		}]
-	}, {
-		"TICKET": "f1aa0087-43d1-4862-8e8c-7d3f38fda06e",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42013",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 359.482759,
-		"Importe": 359.482759,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "f1aa0087-43d1-4862-8e8c-7d3f38fda06e",
-			"_Tipo": "T",
-			"Base": "359.482759",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "57.52"
-		}]
-	}, {
-		"TICKET": "b672a58a-9d72-41bd-b317-525c72d6c45b",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42014",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 247.413794,
-		"Importe": 247.413794,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "b672a58a-9d72-41bd-b317-525c72d6c45b",
-			"_Tipo": "T",
-			"Base": "247.413793",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "39.59"
-		}]
-	}, {
-		"TICKET": "0c7ba4dc-463e-4a4a-99bc-ba9d9fb98994",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42015",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 187.068966,
-		"Importe": 187.068966,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "0c7ba4dc-463e-4a4a-99bc-ba9d9fb98994",
-			"_Tipo": "T",
-			"Base": "187.068966",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "29.93"
-		}]
-	}, {
-		"TICKET": "1fdd0b8f-9106-4083-a7ff-2e94c6194f47",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42016",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 422.413794,
-		"Importe": 422.413794,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "1fdd0b8f-9106-4083-a7ff-2e94c6194f47",
-			"_Tipo": "T",
-			"Base": "422.413793",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "67.59"
-		}]
-	}, {
-		"TICKET": "654d849e-991b-408c-b7eb-60c99ab62981",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42017",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 282.758621,
-		"Importe": 282.758621,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "654d849e-991b-408c-b7eb-60c99ab62981",
-			"_Tipo": "T",
-			"Base": "282.758621",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "45.24"
-		}]
-	}, {
-		"TICKET": "5cb925c6-08ee-4caa-ba71-8ebc6010d5b1",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42018",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 364.655173,
-		"Importe": 364.655173,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "5cb925c6-08ee-4caa-ba71-8ebc6010d5b1",
-			"_Tipo": "T",
-			"Base": "364.655172",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "58.34"
-		}]
-	}, {
-		"TICKET": "f0dcd488-920a-4f42-93da-dedc39181c55",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42021",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 359.482758,
-		"Importe": 359.482758,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "f0dcd488-920a-4f42-93da-dedc39181c55",
-			"_Tipo": "T",
-			"Base": "359.482759",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "57.52"
-		}]
-	}, {
-		"TICKET": "b280ee65-2d61-4600-ac41-583368140eef",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42022",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 465.517241,
-		"Importe": 465.517241,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "b280ee65-2d61-4600-ac41-583368140eef",
-			"_Tipo": "T",
-			"Base": "465.517241",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "74.48"
-		}]
-	}, {
-		"TICKET": "c22c2443-2656-4c67-846a-5747f060a3de",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42023",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 395.689655,
-		"Importe": 395.689655,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "c22c2443-2656-4c67-846a-5747f060a3de",
-			"_Tipo": "T",
-			"Base": "395.689655",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "63.31"
-		}]
-	}, {
-		"TICKET": "74a7e430-ae8f-4b81-9ff9-6a4b01ca1f11",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42024",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 487.068966,
-		"Importe": 487.068966,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "74a7e430-ae8f-4b81-9ff9-6a4b01ca1f11",
-			"_Tipo": "T",
-			"Base": "487.068966",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "77.93"
-		}]
-	}, {
-		"TICKET": "e25b1982-4200-455c-8259-d9b7c3aae704",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42027",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 727.586205,
-		"Importe": 727.586205,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "e25b1982-4200-455c-8259-d9b7c3aae704",
-			"_Tipo": "T",
-			"Base": "727.586207",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "116.41"
-		}]
-	}, {
-		"TICKET": "dd4c9def-f166-4bed-a5e6-f0997c79a71b",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42028",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 1376.724136,
-		"Importe": 1376.724136,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "dd4c9def-f166-4bed-a5e6-f0997c79a71b",
-			"_Tipo": "T",
-			"Base": "1376.724138",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "220.28"
-		}]
-	}, {
-		"TICKET": "1911d70a-8b34-45e9-94ae-2ed291d9e1a7",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42029",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 624.999999,
-		"Importe": 624.999999,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "1911d70a-8b34-45e9-94ae-2ed291d9e1a7",
-			"_Tipo": "T",
-			"Base": "625.000000",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "100.00"
-		}]
-	}, {
-		"TICKET": "123ab24e-7068-4123-922a-b0e65fd5ddfc",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42031",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 1511.206897,
-		"Importe": 1511.206897,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "123ab24e-7068-4123-922a-b0e65fd5ddfc",
-			"_Tipo": "T",
-			"Base": "1511.206897",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "241.79"
-		}]
-	}, {
-		"TICKET": "e81410ad-6c8c-4dcd-a817-3a0779dc32c4",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42032",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 582.75862,
-		"Importe": 582.75862,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "e81410ad-6c8c-4dcd-a817-3a0779dc32c4",
-			"_Tipo": "T",
-			"Base": "582.758621",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "93.24"
-		}]
-	}, {
-		"TICKET": "771b8e07-7318-4005-82f6-76476312b4d7",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42033",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 369.827586,
-		"Importe": 369.827586,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "771b8e07-7318-4005-82f6-76476312b4d7",
-			"_Tipo": "T",
-			"Base": "369.827586",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "59.17"
-		}]
-	}, {
-		"TICKET": "5903894f-0985-446c-90ef-5babcc46c2ec",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42034",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 1485.344827,
-		"Importe": 1485.344827,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "5903894f-0985-446c-90ef-5babcc46c2ec",
-			"_Tipo": "T",
-			"Base": "1485.344828",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "237.66"
-		}]
-	}, {
-		"TICKET": "d76b2a67-2068-4456-8922-e233931a23a6",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42035",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 925.862069,
-		"Importe": 925.862069,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "d76b2a67-2068-4456-8922-e233931a23a6",
-			"_Tipo": "T",
-			"Base": "925.862069",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "148.14"
-		}]
-	}, {
-		"TICKET": "1400809e-9f61-482e-9db8-d8d160ce84ad",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42036",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 374.137932,
-		"Importe": 374.137932,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "1400809e-9f61-482e-9db8-d8d160ce84ad",
-			"_Tipo": "T",
-			"Base": "374.137931",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "59.86"
-		}]
-	}, {
-		"TICKET": "9b62f4d1-4b87-4213-beca-d9c1f70b0366",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42037",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 622.413793,
-		"Importe": 622.413793,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "9b62f4d1-4b87-4213-beca-d9c1f70b0366",
-			"_Tipo": "T",
-			"Base": "622.413793",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "99.59"
-		}]
-	}, {
-		"TICKET": "353574fb-f09f-4e10-9813-4e697d6dd079",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42038",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 451.724138,
-		"Importe": 451.724138,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "353574fb-f09f-4e10-9813-4e697d6dd079",
-			"_Tipo": "T",
-			"Base": "451.724138",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "72.28"
-		}]
-	}, {
-		"TICKET": "ea8a06d1-4eec-4e7a-8bfd-e8617786ee58",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42039",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 3554.310348,
-		"Importe": 3554.310348,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "ea8a06d1-4eec-4e7a-8bfd-e8617786ee58",
-			"_Tipo": "T",
-			"Base": "3554.310345",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "568.69"
-		}]
-	}, {
-		"TICKET": "5ac747cc-22fa-4351-81e8-ce4ef3738bf1",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42040",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 935.344826,
-		"Importe": 935.344826,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "5ac747cc-22fa-4351-81e8-ce4ef3738bf1",
-			"_Tipo": "T",
-			"Base": "935.344828",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "149.66"
-		}]
-	}, {
-		"TICKET": "f55c69d4-5f0e-48dc-a5d7-689eb1a1c804",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42041",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 412.931034,
-		"Importe": 412.931034,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "f55c69d4-5f0e-48dc-a5d7-689eb1a1c804",
-			"_Tipo": "T",
-			"Base": "412.931034",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "66.07"
-		}]
-	}, {
-		"TICKET": "0f863eca-5c03-47ba-8914-8c311d506cfc",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42042",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 2047.413795,
-		"Importe": 2047.413795,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "0f863eca-5c03-47ba-8914-8c311d506cfc",
-			"_Tipo": "T",
-			"Base": "2047.413793",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "327.59"
-		}]
-	}, {
-		"TICKET": "1159f341-eca9-4405-9f4b-097d180d4b7b",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42044",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 539.655173,
-		"Importe": 539.655173,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "1159f341-eca9-4405-9f4b-097d180d4b7b",
-			"_Tipo": "T",
-			"Base": "539.655172",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "86.34"
-		}]
-	}, {
-		"TICKET": "1181a324-b5d0-47fa-bb2d-610eb68b2d15",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42045",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 932.75862,
-		"Importe": 932.75862,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "1181a324-b5d0-47fa-bb2d-610eb68b2d15",
-			"_Tipo": "T",
-			"Base": "932.758621",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "149.24"
-		}]
-	}, {
-		"TICKET": "7f3d20d4-6df2-401f-b64c-cd60b2c6f9f3",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42046",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 32.758621,
-		"Importe": 32.758621,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "7f3d20d4-6df2-401f-b64c-cd60b2c6f9f3",
-			"_Tipo": "T",
-			"Base": "32.758621",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "5.24"
-		}]
-	}, {
-		"TICKET": "cf82ef7d-8b93-4093-b5f1-f8b97b6559df",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42047",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 401.724138,
-		"Importe": 401.724138,
-		"Descuento": 0,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "cf82ef7d-8b93-4093-b5f1-f8b97b6559df",
-			"_Tipo": "T",
-			"Base": "401.724138",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "64.28"
-		}]
-	}, {
-		"TICKET": "b988fe37-24dd-4de7-86b4-a7c8de85c93e",
-		"LINE": 0,
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-		"ClaveProdServ": "90101501",
-		"NoIdentificacion": "42048",
-		"Cantidad": 1,
-		"ClaveUnidad": "Q3",
-		"Unidad": null,
-		"Descripcion": "Venta",
-		"ValorUnitario": 1298.275861,
-		"Importe": 1298.275861,
-		"Descuento": 43.706897,
-		"ATTRIBUTES": "",
-		"ObjetoImp": "02",
-		"e_Impuestos": [{
-			"TICKET": "b988fe37-24dd-4de7-86b4-a7c8de85c93e",
-			"_Tipo": "T",
-			"Base": "1254.568966",
-			"Impuesto": "002",
-			"TipoFactor": "Tasa",
-			"TasaOCuota": "0.160000",
-			"Importe": "200.73"
-		}]
-	}],
-	"e_Impuestos_Traslados": [{
-		"_Comprobante": "926d9737-b9d7-11ec-a5e0-0242ac120002",
-        "Base": 34992.07, 
-		"Impuesto": "002",
-		"TipoFactor": "Tasa",
-		"TasaOCuota": "0.160000",
-		"Importe": 5598.74
-	}]
+  "error": {
+    "code": 500,
+    "message": "ERROR AL TIMBRAR: CFDI40215 - El campo Importe no coincide",
+    "debug": [...]
+  }
 }
+```
 
+El sistema implementa:
+- Rollback automático de transacciones
+- Logging detallado de errores
+- Códigos de estado HTTP apropiados
+- Mensajes descriptivos en español
 
+## 🧪 Testing
 
-LOG PAC TIMBRAR
-"message": "ROLBACK: No se efectuaron cambios, Error en el metodo  timbrar, de la clase Comprobante40, Descripcion: ERROR AL TIMBRAR: CFDI40215 - El campo Importe correspondiente a Traslado no es igual al redondeo de la suma de los importes de las bases trasladados registrados en los conceptos donde el impuesto del concepto sea igual al campo impuesto de este elemento y la TasaOCuota del concepto sea igual al campo TasaOCuota de este elemento. :",
+```bash
+# Ejecutar pruebas (cuando estén implementadas)
+./vendor/bin/phpunit tests/
 
-CFDI40168 - El valor del campo Descuento debe tener hasta la cantidad de decimales que tenga registrado el campo importe del concepto. :",
-        "debug": [
+# Probar endpoint específico
+curl -X GET "https://tu-dominio.com/cfdi/app/facturar" \
+  -H "Authorization: Bearer tu_token"
+```
 
+## 📈 Monitoreo
 
-FACTURA GLOBAL PRUEBA CON CORTE 2054
+El sistema genera logs en:
+- `temp/bitacora.txt` - Log principal de errores
+- `temp/lastXML.xml` - Último XML generado
+- `temp/sello.txt` - Cadena original para debugging
+
+## 🔒 Seguridad
+
+- **OAuth2**: Autenticación robusta
+- **HTTPS**: Comunicación segura (recomendado)
+- **Validación de entrada**: Sanitización de datos
+- **Transacciones**: Consistencia de base de datos
+- **Certificados**: Almacenamiento seguro de llaves privadas
+
+## 🚀 Despliegue
+
+### Producción
+1. Configurar servidor HTTPS
+2. Optimizar configuración PHP
+3. Configurar backup de base de datos
+4. Monitorear logs de errores
+5. Configurar certificados SAT de producción
+
+### Desarrollo
+```bash
+# Servidor de desarrollo PHP
+cd app/
+php -S localhost:8000
+```
+
+## 🤝 Contribución
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
+3. Commit tus cambios (`git commit -am 'Agrega nueva funcionalidad'`)
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
+5. Crea un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
+
+## 🆘 Soporte
+
+- **Documentación SAT**: [www.sat.gob.mx](https://www.sat.gob.mx)
+- **Issues**: Reporta problemas en GitHub Issues
+- **Wiki**: Documentación adicional en GitHub Wiki
+
+## 🔄 Changelog
+
+### v2.0.0 - CFDI 4.0
+- ✅ Soporte completo para CFDI 4.0
+- ✅ Información Global para facturación consolidada
+- ✅ Nuevos campos de exportación
+- ✅ Validaciones actualizadas
+
+### v1.0.0 - CFDI 3.3
+- ✅ Implementación inicial CFDI 3.3
+- ✅ Timbrado y cancelación
+- ✅ Generación de PDF
+- ✅ API REST con OAuth2
+
+## ⚡ Roadmap
+
+- [ ] **PHP 8+**: Modernización del código
+- [ ] **Testing**: Cobertura completa de pruebas
+- [ ] **Docker**: Containerización
+- [ ] **Webhooks**: Notificaciones automáticas
+- [ ] **Cache**: Optimización de consultas
+- [ ] **Queue System**: Procesamiento asíncrono
+
+---
+
+**Desarrollado con ❤️ para la comunidad de desarrolladores mexicanos**
